@@ -3,18 +3,18 @@
 }
 
 body {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .box-sm {
-  height: 100px;
-  width: 200px;
+  height: 70%;
+  width: 70%;
 }
 
 .box-md {
-  height: 200px;
-  width: 400px;
+  height: 50%;
+  width: 75%;
 }
 
 .box-lg{
@@ -23,7 +23,8 @@ body {
 }
 
 .border{
-  border: 5px solid black;
+  border: 10px solid black;
+  border-radius: 5px;
 }
 
 #yellow {
@@ -36,10 +37,14 @@ body {
   margin: auto;
   margin-top: 30px;
   padding-top: 3%;
+  position: relative;
+  top:17%;
 }
 
 #blue{
-  background-color: blue;
+  background-color: #96FAF2;
   margin: auto;
+  position:relative;
+  top:4.5%;
 
 }
